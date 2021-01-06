@@ -9,6 +9,5 @@ df = pd.DataFrame([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3], [
 print(df)
 
 
-da = np.array([1, 2, 3, 4, 5, 6])
-print(da.reshape(3, 1, 2))
-print('123')
+ne = np.array([1, 2, 3, 4, 5, 6])
+print(ne.reshape(3, 1, 2))

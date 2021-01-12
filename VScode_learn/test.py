@@ -1,14 +1,21 @@
 import numpy as np
-import pandas as pd
-print('hello world')
-d = {'a': 24, 'g': 52, 'i': 12, 'k': 33}
-print(d.items())
-
-df = pd.DataFrame([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3], [
-                  4, 4, 4, 4]], columns=["cols1", 'cols2', 'clos3', 'clos4'])
-print(df)
-
-
-ne = np.array([1, 2, 3, 4, 5, 6])
-print(ne.reshape(3, 1, 2))
-print('hello git')
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+fig = plt.figure()
+ax = fig.add_subplot(111)
+N = 10
+x = np.random.rand(N)
+y = np.random.rand(N)
+z = np.random.rand(N)
+circles, triangles, dots = ax.plot(x, 'ro', y, 'g^', z, 'b.')
+ax.set_ylim(0, 1)
+plt.axis('off')
+def update(data):
+    circles.set_ydata(data[0])
+    triangles.set_ydata(data[1])
+    return circles, triangles
+def generate():
+    while True: 
+        yield np.random.rand(2, N)
+anim = animation.FuncAnimation(fig, update, generate, interval=150)
+plt.show()

@@ -1,132 +1,65 @@
-absl-py==0.11.0
-appnope @ file:///Users/runner/miniforge3/conda-bld/appnope_1606850125884/work
-astroid==2.4.2
-astunparse==1.6.3
-async-generator==1.10
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
-autopep8==1.5.4
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-bleach==3.1.4
-cachetools==4.2.0
-certifi==2020.12.5
-chardet==4.0.0
-click==7.1.2
-cloudpickle==1.6.0
-cycler==0.10.0
-decorator==4.4.2
-defusedxml==0.6.0
-entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
-flatbuffers==1.12
-future==0.18.2
-gast==0.3.3
-gensim==3.8.3
-google-auth==1.24.0
-google-auth-oauthlib==0.4.2
-google-pasta==0.2.0
-grpcio==1.32.0
-gym==0.18.0
-h5py==2.10.0
-idna==2.10
-importlib-metadata @ file:///Users/runner/miniforge3/conda-bld/importlib-metadata_1607975962697/work
-intel-openmp==2021.1.1
-ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1607737244191/work/dist/ipykernel-5.4.2-py3-none-any.whl
-ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1604159586038/work
-ipython-genutils==0.2.0
-ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1599554010055/work
-isort==5.6.4
-jedi @ file:///Users/runner/miniforge3/conda-bld/jedi_1605054549816/work
-Jinja2==2.11.2
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1607956439537/work
-jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1602551949684/work
-jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1598486169312/work
-jupyter-console @ file:///home/conda/feedstock_root/build_artifacts/jupyter_console_1598728807792/work
-jupyter-core @ file:///Users/runner/miniforge3/conda-bld/jupyter_core_1605735026883/work
-jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
-Keras==2.4.3
-Keras-Preprocessing==1.1.2
-kiwisolver==1.3.1
-lazy-object-proxy==1.4.3
-lxml==4.6.2
-Markdown==3.3.3
-MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1602267327822/work
-matplotlib==3.3.3
-mccabe==0.6.1
-mistune @ file:///Users/runner/miniforge3/conda-bld/mistune_1605115675096/work
-mkl==2021.1.1
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
-mpl-finance @ https://github.com/matplotlib/mpl_finance/archive/master.zip
-mplfinance==0.12.7a4
-multitasking==0.0.9
-nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1602859080374/work
-nbconvert @ file:///Users/runner/miniforge3/conda-bld/nbconvert_1605401854594/work
-nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1602732862338/work
-nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1605195931949/work
-nltk==3.5
-notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1594078855275/work
-numpy==1.19.5
-oauthlib==3.1.0
-opt-einsum==3.3.0
-pandas==1.2.0
-pandas-datareader==0.9.0
-pandocfilters==1.4.2
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1595548966091/work
-pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1602535608087/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
-Pillow==7.2.0
-prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1605543085815/work
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1605053337398/work
-protobuf==3.14.0
-psutil==5.7.3
-ptyprocess==0.6.0
-pyasn1==0.4.8
-pyasn1-modules==0.2.8
-pycodestyle==2.6.0
-pyglet==1.5.0
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1607352093725/work
-pyparsing==2.4.7
-PyQt5==5.12.3
-PyQt5-sip==4.19.18
-PyQtChart==5.12
-PyQtWebEngine==5.12.1
-pyrsistent @ file:///Users/runner/miniforge3/conda-bld/pyrsistent_1605115614071/work
-python-dateutil==2.8.1
-pytz==2020.5
-PyYAML==5.3.1
-pyzmq==19.0.1
-qtconsole==4.6.0
-rarfile==4.0
-regex==2020.11.13
-requests==2.25.1
-requests-oauthlib==1.3.0
-rsa==4.6
-scikit-learn==0.24.0
-scipy==1.6.0
-Send2Trash==1.5.0
-six @ file:///opt/concourse/worker/volumes/live/5b31cb27-1e37-4ca5-6e9f-86246eb206d2/volume/six_1605205320872/work
-sklearn==0.0
-smart-open==4.0.1
-tbb==2021.1.1
-tensorboard==2.4.0
-tensorboard-plugin-wit==1.7.0
-tensorflow==2.4.0
-tensorflow-estimator==2.4.0
-termcolor==1.1.0
-terminado @ file:///Users/runner/miniforge3/conda-bld/terminado_1605116937404/work
-testpath==0.4.4
-threadpoolctl==2.1.0
-toml==0.10.2
-tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1604105041409/work
-tqdm==4.54.1
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
-typing-extensions==3.7.4.3
-urllib3==1.26.2
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1592931742287/work
-webencodings==0.5.1
-Werkzeug==1.0.1
-widgetsnbextension @ file:///Users/runner/miniforge3/conda-bld/widgetsnbextension_1605475527869/work
-wincertstore==0.2
-wrapt==1.12.1
-yfinance==0.1.55
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1603668650351/work
+Package                Version
+---------------------- -------------------
+absl-py                0.11.0
+astunparse             1.6.3
+cachetools             4.2.0
+certifi                2020.12.5
+chardet                4.0.0
+cloudpickle            1.6.0
+cycler                 0.10.0
+flatbuffers            1.12
+future                 0.18.2
+gast                   0.3.3
+google-auth            1.24.0
+google-auth-oauthlib   0.4.2
+google-pasta           0.2.0
+grpcio                 1.32.0
+gym                    0.18.0
+h5py                   2.10.0
+idna                   2.10
+joblib                 1.0.0
+Keras-Preprocessing    1.1.2
+kiwisolver             1.3.1
+lxml                   4.6.2
+Markdown               3.3.3
+matplotlib             3.3.3
+mkl-fft                1.2.0
+mkl-random             1.1.1
+mkl-service            2.3.0
+mpl-finance            0.10.1
+mplfinance             0.12.7a4
+multitasking           0.0.9
+numpy                  1.19.5
+oauthlib               3.1.0
+opt-einsum             3.3.0
+pandas                 1.2.0
+pandas-datareader      0.9.0
+Pillow                 7.2.0
+pip                    20.3.3
+protobuf               3.14.0
+pyasn1                 0.4.8
+pyasn1-modules         0.2.8
+pyglet                 1.5.0
+pyparsing              2.4.7
+python-dateutil        2.8.1
+pytz                   2020.5
+requests               2.25.1
+requests-oauthlib      1.3.0
+rsa                    4.6
+scikit-learn           0.24.0
+scipy                  1.6.0
+setuptools             51.0.0.post20201207
+six                    1.15.0
+tensorboard            2.4.0
+tensorboard-plugin-wit 1.7.0
+tensorflow             2.4.0
+tensorflow-estimator   2.4.0
+termcolor              1.1.0
+threadpoolctl          2.1.0
+typing-extensions      3.7.4.3
+urllib3                1.26.2
+Werkzeug               1.0.1
+wheel                  0.36.2
+wincertstore           0.2
+wrapt                  1.12.1
+yfinance               0.1.55

@@ -12,7 +12,7 @@ class Solution:
         is_palindrome = [[False] * n for _ in range(n)]
 
         for i in range(n):
-            is_palindrome[i][i] = True >
+            is_palindrome[i][i] = True
         for i in range(1, n):
             is_palindrome[i][i - 1] = True
 

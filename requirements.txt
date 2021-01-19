@@ -150,3 +150,11 @@ wrapt=1.12.1=pypi_0
 yfinance=0.1.55=pypi_0
 zipp=3.4.0=pypi_0
 zlib=1.2.11=h62dcd97_4
+
+numpy>=1.19.5
+matplotlib>=3.3.3
+scipy>=1.6.0
+python-dateutil>=2.8.1
+pandas>=1.2.0
+mplfinance>=0.12.7a4
+yfinance>=0.1.55

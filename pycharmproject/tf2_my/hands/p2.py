@@ -1,9 +1,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from sklearn import datasets
-from pandas import DataFrame
 import numpy as np
-import pandas as pd
 
 # 读入数据集
 x_data = datasets.load_iris().data

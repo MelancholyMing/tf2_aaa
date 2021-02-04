@@ -9,3 +9,4 @@ B站视频链接：https://www.bilibili.com/video/BV1B7411L7Qt
 源码下载链接：https://pan.baidu.com/s/19XC28Hz_TwnSQeuVifg1UQ 提取码：mocm
 
 ​		该课程由北京大学，软件与微电子学院，曹健老师出品，非常详实的介绍了Tensorflow2.0的使用教程，从tf2.0安装、常用API、卷积、循环层等，入门tf2.0较好的教程。
+代码及数据地址：https://www.aliyundrive.com/drive/folder/601b6b8533bf90180fe44d89be6860db775bf450

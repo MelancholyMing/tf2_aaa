@@ -7,4 +7,5 @@ VScode_learn/.vscode/settings.json
 *.npy
 .ipynb_checkpoints
 vgg16_weights.txt
+resnet18_weights.txt
 .idea

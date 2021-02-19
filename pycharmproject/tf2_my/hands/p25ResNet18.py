@@ -103,7 +103,7 @@ history = model.fit(x_train, y_train, batch_size=32, epochs=5, validation_data=(
 
 model.summary()
 
-with open("./resnet18_weights.txt", 'w ') as f:
+with open("./resnet18_weights.txt", 'w') as f:
     for v in model.trainable_variables:
         f.write(str(v.name) + '\n')
         f.write(str(v.shape) + '\n')

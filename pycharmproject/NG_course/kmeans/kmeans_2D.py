@@ -3,7 +3,6 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 import scipy.io as sio
-from skimage import io
 
 # 数据可视化
 

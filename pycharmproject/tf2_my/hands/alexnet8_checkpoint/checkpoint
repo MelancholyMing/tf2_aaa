@@ -1,0 +1,2 @@
+model_checkpoint_path: "alexnet8.ckpt"
+all_model_checkpoint_paths: "alexnet8.ckpt"

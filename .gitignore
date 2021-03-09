@@ -3,3 +3,9 @@ VScode_learn/.vscode/settings.json
 /pycharmproject/tf2_my/hands/FASHION_FC/fashion_image_label/fashion_train_jpg_60000/
 /pycharmproject/tf2_my/hands/MNIST_FC/mnist_image_label/mnist_test_jpg_10000/
 /pycharmproject/tf2_my/hands/MNIST_FC/mnist_image_label/mnist_train_jpg_60000/
+*.ckpt.data-00000-of-00001
+*.npy
+.ipynb_checkpoints
+vgg16_weights.txt
+resnet18_weights.txt
+.idea

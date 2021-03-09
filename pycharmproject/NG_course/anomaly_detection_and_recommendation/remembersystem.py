@@ -150,7 +150,7 @@ print(theta_trained.shape)
 
 prediction = x_trained @ theta_trained.T
 
-my_preds = prediction[:, 0] + Y.mean()
+# my_preds = prediction[:, 0] + Y.mean()
 my_preds = prediction[:, 0] + Y.mean(axis=1)
 
 idx = np.argsort(my_preds)[::-1]

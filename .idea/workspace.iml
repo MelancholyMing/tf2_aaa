@@ -7,7 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/pycharmproject/tf2_my/hands/MNIST_FC/mnist_image_label/mnist_test_jpg_10000" />
       <excludeFolder url="file://$MODULE_DIR$/pycharmproject/tf2_my/hands/MNIST_FC/mnist_image_label/mnist_train_jpg_60000" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (tf2learn)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">

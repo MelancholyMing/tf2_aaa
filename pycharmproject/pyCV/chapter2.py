@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 
 
+# basic function
+
 img = cv2.imread("./resources/len_std.png")
 kernel = np.ones((5, 5), np.uint8)
 imgGray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)

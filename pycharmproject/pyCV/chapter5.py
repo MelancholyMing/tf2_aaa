@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Warp Perspective
+# Warp Perspective 透视变换
 
 img = cv2.imread("resources/cards.jpg")
 print(img.shape)

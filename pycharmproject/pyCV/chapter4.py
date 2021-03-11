@@ -7,7 +7,7 @@ img = np.zeros((512, 512, 3), np.uint8)
 # img[200:300] = 255, 0, 0
 # img[200:300, 100:300] = 255, 0, 0
 
-# 画矩形及线条
+# shapes and Texts 图形与文字
 cv2.line(img, (0, 0), (img.shape[1], img.shape[0]), (0, 255, 0), 3)
 cv2.rectangle(img, (0, 0), (250, 350), (0, 0, 255), 2)
 # cv2.rectangle(img, (0, 0), (250, 350), (0, 0, 255), cv2.FILLED)

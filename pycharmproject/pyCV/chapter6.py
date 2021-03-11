@@ -40,19 +40,19 @@ def stackImages(scale, imgArray):
 
     return ver
 
+if __name__ == '__main__':
+    # 图片拼接
+    img = cv2.imread("resources/len_std.png")
+    imgGray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+    print(img.shape)
+    print(imgGray.shape)
+    # imgStack = stackImages(0.5, ([img, imgGray, img]))
+    imgStack = stackImages(0.5, ([img, imgGray, img], [img, imgGray, img]))
+    cv2.imshow("ImagesStack", imgStack)
 
-# 图片拼接
-img = cv2.imread("resources/len_std.png")
-imgGray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-print(img.shape)
-print(imgGray.shape)
-# imgStack = stackImages(0.5, ([img, imgGray, img]))
-imgStack = stackImages(0.5, ([img, imgGray, img], [img, imgGray, img]))
-cv2.imshow("ImagesStack", imgStack)
-
-# imgHor = np.hstack((img, img))  # horizontal
-# imgVer = np.vstack((img, img))  # vertical
-#
-# cv2.imshow("Horizontal join", imgHor)
-# cv2.imshow("Vertical join", imgVer)
-cv2.waitKey(0)
+    # imgHor = np.hstack((img, img))  # horizontal
+    # imgVer = np.vstack((img, img))  # vertical
+    #
+    # cv2.imshow("Horizontal join", imgHor)
+    # cv2.imshow("Vertical join", imgVer)
+    cv2.waitKey(0)
